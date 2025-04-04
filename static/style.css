@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a2898d; 
+}
+
+header {
+    background-color: #6e7a95;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    border: 5px solid #fff; 
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+header div {
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e1cfcf;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-pair {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.skill-pair > div {
+    margin-right: 10px;
+}
+
+/* Adicione uma classe adicional para aplicar a margem à última habilidade de cada linha */
+.skill-pair:last-child > div {
+    margin-right: 0;
+}
+
+/* Adicione margem inferior para criar um espaço vertical entre conjuntos de três habilidades */
+.skill-pair:nth-child(3n) {
+    margin-bottom: 20px;
+}
+
+/* Adicione margem inferior para a última habilidade de cada linha */
+.skill-pair:nth-last-child(-n+3) {
+    margin-bottom: 20px;
+}
+
+
+#interests {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #c0eaed;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+.interests-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.interests-list li {
+    color: #333; 
+    margin-right: 30px; 
+}
+
+.interests-list li:last-child {
+    margin-right: 120px; 
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+
+a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+

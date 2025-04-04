@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rodrigo Silva - Currículo</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px; 
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 10px; 
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: "•"; 
+            color: #738ac0; 
+            font-size: 1.5em; 
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="minhafoto.jpg" id="profile-picture">
+        <div>
+            <h1>Rodrigo Silva</h1>
+            <p>4th year Computer Engineering student <br>  
+                NOVA School of Science and Technology </p>
+        </div>
+        </header>
+    
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                During my exciting academic career in Computer Engineering at the renowned Faculty of Science and Technology at Universidade Nova de Lisboa,
+                I plunged headlong into the fascinating world of technology. Right from the start, I was challenged to push the boundaries of my knowledge, 
+                facing complex challenges and developing the skills needed to thrive in the field of computer science. Over the years, I have actively participated in innovative projects that have not only consolidated the
+                theoretical concepts learnt in the classroom, but have also provided me with a practical and in-depth understanding
+                of the practical applications in this field. I am keen to apply the knowledge acquired and skills developed throughout my academic career in professional
+                contexts, contributing to innovative solutions and driving progress in the field of Computer Engineering.</p>
+        </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li> <h3>Bachelor's Degree in Computer Engineering <br>
+                NOVA School of Science and Technology, Almada
+            </h3></li>  
+            <li> <h3>Master's Degree in Computer Engineering <br>
+                NOVA School of Science and Technology, Almada
+            </h3></li> 
+        </ul>
+        
+        
+    </section>
+
+    <section id="experience">
+        <h2>Academic Experience</h2>
+        <ul>
+            <li> <h3>Software Engineering</h3></li>  
+            For a semester, our group of six was immersed in a challenging Open Source 
+            project as part of our Software Engineering course.
+            We met weekly to discuss individual progress, define tasks and elect a Scrum Master to lead the sprints. We 
+            added incredible features to the application, such as rewards for completed 
+            missions, improvements to the cart for transport and the ability to create points of 
+            interest. Technologies such as IntelliJ IDEA and GitHub were used in this project.
+            A video explaining the functionalities is available at:
+            <a href="https://youtu.be/Th3LknIwn14."target="_blank">Explanation Video</a>. 
+            This project used technologies such as IntelliJ IDEA (Java and XML) and GitHub.
+            <li> <h3>Computer Networks</h3> </li>
+            <p> In a collaborative project involving two people as part of the Computer Networks 
+                course, we faced the complex challenge of transmitting video in a dynamic 
+                network environment, where bandwidth and round-trip times are variable.  Inspired 
+                by the DASH approach, we developed an application made up of three distinct 
+                elements: the Content Server, full of films in various versions, the Player, 
+                responsible for showing the films and the Proxy, a key part with producer and
+                 consumer threads, optimising the fluid delivery of video segments.
+                 The technology used in this project was Spyder (Python).
+            </p>
+            <li> <h3> Computer Graphics and Interfaces</h3> </li>
+            This project, as part of the Computer Graphics and Interfaces course, aimed to 
+            implement the Phong lighting model with fragment evaluation (Phong shading) 
+            and use the dat.gui library for the graphical interface. We developed a scene 
+            made up of 4 objects, allowing individual selection and modification (geometric 
+            and material transformations), including geometry replacement. The user interface 
+            was located in the top left-hand corner, making it easy to manipulate the selected 
+            object.
+            There was also a configuration of visualisation options such as back face 
+            culling, z-buffering and control of the animation of the lights. In addition, the 
+            application enabled adjustments to the perspective projection parameters (fovy, 
+            near and far), as well as camera positioning and orientation. It had support for 
+            three lights, with configuration options as point or directional light, allowing the 
+            user to manipulate their characteristics (intensities). The position and orientation of 
+            the light sources were choreographed by the application. The control interface for 
+            the camera, lights and visualisation options was located in the top right-hand 
+            corner. 
+            The technology used in this project was VS Code (Javascript and HTML).
+        </ul>
+    </section>
+        
+    <section id="experience">
+        <h2>Internships Experience</h2>
+        <ul>
+            <li> <h3>Backend Development at Celfocus - NOVABASE</h3></li> 
+            The application was designed with a focus on modularity and scalability, using 
+            Java with the SpringBoot framework for the Backend. The Rest architecture 
+            facilitates communication with the Frontend and other systems. Integration with 
+            MongoDB as a NoSQL database allowed flexibility in data structuring and efficient 
+            queries. The application adopted security practices such as JWT for authentication 
+            and authorisation, as well as solid validations for data formats such as 
+            email, mobile phone numbers, passwords and tax identification numbers (TINs). 
+            The configuration of CI/CD pipelines ensured test automation and continuous 
+            execution, while documentation using Swagger/OpenAPI made the endpoints 
+            easier to understand and use. 
+            This solution incorporated a Cache System to optimise the search for users and 
+            orders. (orders.) This Cache System was implemented using Spring Boot Cache, 
+            providing a significant improvement in the performance of frequent queries. With 
+            the Cache System, the response time has decreased, allowing for a faster and 
+            more efficient user experience. user experience. The implementation of the Cache 
+            System included the configuration of expiry and invalidation policies, guaranteeing 
+            invalidation policies, guaranteeing the consistency and updating of data. This 
+            additional layer of the 
+            Cache System is essential to support high-volume traffic scenarios and repeated 
+            data access. 
+            To guarantee the high availability and scalability of message processing, we used 
+            Kafka. Kafka, as a distributed streaming platform, facilitated the acquisition, 
+            processing and efficient storage of large volumes of data in real time.  The 
+            integration of Kafka integration allowed the application to handle a large flow of 
+            data while maintaining the integrity and performance of the services offered by the 
+            application.  
+            Finally, we deployed the solution to AWS, taking advantage of the scalable and 
+            secure infrastructure of infrastructure. We used the Amazon Elastic Container 
+            Registry (ECR) service, which made management easier, storage and deployment 
+            of Docker container images. The use of ECR provided efficient integration with our 
+            CI/CD pipelines, enabling continuous and agile delivery of application application 
+            updates. We were left with two virtual machines, one dedicated to Kafka and the 
+            
+        </ul>
+    </section>
+
+    <section id="interest">
+        <h2>Interesses</h2>
+        <ul class="interests-list">
+            <li><h4>Web Development</h4></li>
+            <li><h4>Backend Development</h4></li>
+            <li><h4>Cyber Security</h4></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="email.png" width="30"> <a href="mailto:digosilva2003@gmail.com" target="_blank"><h5>digosilva2003@gmail.com</h5></a>
+            </div>
+        </p>
+        
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="linkedin.jpg" width="30"> <a href="https://www.linkedin.com/in/rodrigo-silva-150b01191/" target="_blank"><h5>Linkedin</h5></a>
+            </div>
+        </p>
+
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="telemovel.png" width="30"> <a href="tel:+351964286547"><h5>+351964286547</h5></a>
+            </div>
+        </p>
+    </section>
+
+   
+
+</body>
+</html>
